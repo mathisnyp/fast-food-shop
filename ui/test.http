@@ -1,0 +1,8 @@
+POST localhost:8080/order
+Content-Type: application/json
+
+{
+  "name": "alf",
+  "lastname": "peter",
+  "check": true
+}

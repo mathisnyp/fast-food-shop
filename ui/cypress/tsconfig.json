@@ -1,0 +1,11 @@
+{
+  "extends": "../tsconfig.json",
+  "include": ["../node_modules/cypress", "*/*.ts"],
+  "compilerOptions": {
+    "types": ["cypress"],
+    "noEmit": false,
+    "module": "es6",
+    "target": "es6",
+    "allowJs": true
+  }
+}
